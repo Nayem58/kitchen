@@ -1,29 +1,31 @@
 * {
-  font-family: 'Baloo Da 2', cursive;
+  font-family: "Baloo Da 2", cursive;
 }
 
-a, button:focus {
+a,
+button:focus {
   outline: none;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
 
 .primary-btn {
   display: inline-block;
-  background-color: #F98169;
+  background-color: #f98169;
   color: #fff;
   font-size: 18px;
   font-weight: 700;
   padding: 10px 20px;
   border-radius: 5px;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .primary-btn:hover {
-  background-color: #0B314B;
+  background-color: #0b314b;
   color: #fff;
 }
 
@@ -47,21 +49,21 @@ a, a:hover {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  border: 2px solid #F98169;
-  -webkit-transition: .5s;
-  transition: .5s;
+  border: 2px solid #f98169;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .watch-video .fa-play {
   display: inline-block;
   font-size: 20px;
-  color: #F98169;
-  -webkit-transition: .5s;
-  transition: .5s;
+  color: #f98169;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .watch-video:hover {
-  background-color: #F98169;
+  background-color: #f98169;
 }
 
 .watch-video:hover .fa-play {
@@ -80,13 +82,13 @@ header .navbar {
 
 header .navbar .navbar-brand {
   font-size: 56px;
-  color: #0B314B;
+  color: #0b314b;
   font-weight: 300;
   margin-right: 100px;
 }
 
 header .navbar .navbar-nav .nav-item a {
-  color: #0B314B;
+  color: #0b314b;
 }
 
 header .navbar .navbar-nav .nav-item.active a {
@@ -132,7 +134,7 @@ header .navbar .navbar-nav .nav-item:not(:first-child) {
 
 .home-banner .container .w-50 .h1 {
   font-size: 50px;
-  color: #0B314B;
+  color: #0b314b;
   font-weight: 300;
   margin-bottom: 25px;
 }
@@ -143,7 +145,7 @@ header .navbar .navbar-nav .nav-item:not(:first-child) {
 
 .home-banner .container .w-50 p small {
   font-size: 16px;
-  color: #0B314B;
+  color: #0b314b;
 }
 
 .home-banner .container .w-50 .primary-btn {
@@ -173,8 +175,8 @@ header .navbar .navbar-nav .nav-item:not(:first-child) {
 .featured-menu .container .row:first-child .col-lg-6:first-child img {
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  -webkit-box-shadow: 0 50px 100px 0 #C5C9CB;
-          box-shadow: 0 50px 100px 0 #C5C9CB;
+  -webkit-box-shadow: 0 50px 100px 0 #c5c9cb;
+          box-shadow: 0 50px 100px 0 #c5c9cb;
 }
 
 .featured-menu .container .full-table {
@@ -224,7 +226,7 @@ header .navbar .navbar-nav .nav-item:not(:first-child) {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  color: #AEB2B4;
+  color: #aeb2b4;
   margin-bottom: 40px;
 }
 
@@ -240,8 +242,8 @@ header .navbar .navbar-nav .nav-item:not(:first-child) {
 }
 
 .explore-foods .row .food-menu-box .food-menu-img img {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .explore-foods .row .food-menu-box .food-menu-details {
@@ -266,14 +268,14 @@ header .navbar .navbar-nav .nav-item:not(:first-child) {
 }
 
 .explore-foods .row .food-menu-box .food-menu-details .item-name-price .price {
-  color: #F98169;
+  color: #f98169;
   font-size: 30px;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .explore-foods .row .food-menu-box .food-menu-details .item-details {
-  color: #AEB2B4;
+  color: #aeb2b4;
   font-size: 14px;
 }
 
@@ -283,7 +285,7 @@ header .navbar .navbar-nav .nav-item:not(:first-child) {
 }
 
 .explore-foods .row .food-menu-box:hover .food-menu-details .item-name-price .price {
-  color: #0B314B;
+  color: #0b314b;
 }
 
 .popular-recipes .h2 {
@@ -310,8 +312,8 @@ header .navbar .navbar-nav .nav-item:not(:first-child) {
   background-color: transparent;
   border-radius: 5px;
   z-index: 1;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .popular-recipes .recipes-slider .recipes-box .recipe-details {
@@ -321,8 +323,9 @@ header .navbar .navbar-nav .nav-item:not(:first-child) {
   padding: 20px;
   left: 0;
   color: #fff;
-  -webkit-transition: .5s;
-  transition: .5s;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .popular-recipes .recipes-slider .recipes-box .recipe-details h4 {
@@ -348,12 +351,8 @@ header .navbar .navbar-nav .nav-item:not(:first-child) {
           align-items: center;
   width: 80px;
   height: 50px;
-  background-color: #F98169;
+  background-color: #f98169;
   border-bottom-right-radius: 5px;
-  -webkit-transition: .5s;
-  transition: .5s;
-  -webkit-transition-delay: .25s;
-          transition-delay: .25s;
   opacity: 0;
 }
 
@@ -365,7 +364,7 @@ header .navbar .navbar-nav .nav-item:not(:first-child) {
 }
 
 .popular-recipes .recipes-slider .recipes-box .recipe-btn:hover {
-  background-color: #0B314B;
+  background-color: #0b314b;
 }
 
 .popular-recipes .recipes-slider .recipes-box:hover .recipes-img::before {
@@ -374,9 +373,14 @@ header .navbar .navbar-nav .nav-item:not(:first-child) {
 
 .popular-recipes .recipes-slider .recipes-box:hover .recipe-details {
   top: 60%;
+  opacity: 1;
 }
 
 .popular-recipes .recipes-slider .recipes-box:hover .recipe-btn {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
   right: 0;
   opacity: 1;
 }
@@ -438,27 +442,27 @@ footer .pre-footer.latest-updates .container .latest-updates-div form.get-update
   border-bottom-left-radius: 10px;
   padding: 10px 20px;
   font-size: 24px;
-  color: #8B8E8F;
+  color: #8b8e8f;
 }
 
 footer .pre-footer.latest-updates .container .latest-updates-div form.get-updates input[type="text"]::-webkit-input-placeholder {
   font-size: 24px;
-  color: #8B8E8F;
+  color: #8b8e8f;
 }
 
 footer .pre-footer.latest-updates .container .latest-updates-div form.get-updates input[type="text"]:-ms-input-placeholder {
   font-size: 24px;
-  color: #8B8E8F;
+  color: #8b8e8f;
 }
 
 footer .pre-footer.latest-updates .container .latest-updates-div form.get-updates input[type="text"]::-ms-input-placeholder {
   font-size: 24px;
-  color: #8B8E8F;
+  color: #8b8e8f;
 }
 
 footer .pre-footer.latest-updates .container .latest-updates-div form.get-updates input[type="text"]::placeholder {
   font-size: 24px;
-  color: #8B8E8F;
+  color: #8b8e8f;
 }
 
 footer .pre-footer.latest-updates .container .latest-updates-div form.get-updates button {
@@ -466,7 +470,7 @@ footer .pre-footer.latest-updates .container .latest-updates-div form.get-update
       flex-basis: 40%;
   height: 90px;
   border: 0;
-  background-color: #F98169;
+  background-color: #f98169;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   font-size: 24px;
@@ -480,12 +484,12 @@ footer .pre-footer.latest-updates .container .latest-updates-div form.get-update
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 footer .pre-footer.latest-updates .container .latest-updates-div form.get-updates button:hover {
-  background-color: #0B314B;
+  background-color: #0b314b;
 }
 
 footer .pre-footer.latest-updates .container:before,
@@ -533,7 +537,7 @@ footer .main-footer .container .footer-nav {
 
 footer .main-footer .container .footer-nav .footer-logo {
   font-size: 56px;
-  color: #0B314B;
+  color: #0b314b;
   font-weight: 300;
   margin-right: 100px;
 }
@@ -548,7 +552,7 @@ footer .main-footer .container .footer-nav .footer-links {
 }
 
 footer .main-footer .container .footer-nav .footer-links .nav-item .nav-link {
-  color: #0B314B;
+  color: #0b314b;
 }
 
 footer .main-footer .container .footer-nav .footer-links .active {
@@ -587,7 +591,7 @@ footer .main-footer .container .social-links .social-links-list li a {
   height: 40px;
   width: 40px;
   border-radius: 5px;
-  background-color: #0B314B;
+  background-color: #0b314b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -597,8 +601,8 @@ footer .main-footer .container .social-links .social-links-list li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 footer .main-footer .container .social-links .social-links-list li a i.fa {
@@ -607,7 +611,7 @@ footer .main-footer .container .social-links .social-links-list li a i.fa {
 }
 
 footer .main-footer .container .social-links .social-links-list li:hover a {
-  background-color: #F98169;
+  background-color: #f98169;
   border-radius: 50%;
 }
 
